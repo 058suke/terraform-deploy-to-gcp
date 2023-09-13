@@ -10,7 +10,6 @@ terraform {
 
   backend "gcs" {
     bucket  = "058269-tfstate"
-    prefix  = "terraform/state"
   }
 }
 
