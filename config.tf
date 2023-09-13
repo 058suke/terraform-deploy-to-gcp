@@ -9,7 +9,7 @@ terraform {
   }
 
   backend "gcs" {
-    bucket  = "058269-tfstate"
+    bucket = "058269-tfstate"
   }
 }
 
