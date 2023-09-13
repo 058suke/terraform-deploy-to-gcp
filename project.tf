@@ -5,7 +5,7 @@ locals {
 variable "labels" {
   description = "Managed by terraform."
   type        = map(string)
-  default     = {
+  default = {
     "terraform" = true
   }
 }
