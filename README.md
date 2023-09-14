@@ -1,4 +1,14 @@
 # terraform-deploy-to-gcp
+
+## 概要
+
+- Google CloudリソースをTerraform管理するサンプル。
+- `main`ブランチへのpushをトリガーに、GitHub Actionsで自動デプロイする。
+  - Google Cloudへの認証は、Workload Identity連携を用いている。
+- [terraform-docs](https://terraform-docs.io/)を用いて、ドキュメントの自動生成。
+
+# terraform-docs
+
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
 
